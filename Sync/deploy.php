@@ -6,7 +6,7 @@
     foreach($commands AS $command){
        $tmp = shell_exec($command);
        // tmp now holds the proper command to execute
-       shell_exec($tmp);
+       $tmp = shell_exec($tmp);
     }
 ?>
 
@@ -19,7 +19,7 @@
 <body>
 <div>
     <div>
-       <p>Project up to date</p>
+       <p>What git says</p>
        <?php echo $tmp ?>
     </div>
 </div>

@@ -19,7 +19,7 @@
 <body>
 <div>
     <div>
-       <p>What git   says</p>
+       <p>What apache says</p>
        <?php echo $tmp ?>
        
 <?php echo 'Propietario script actual: ' . get_current_user();?>

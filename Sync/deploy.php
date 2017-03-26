@@ -1,10 +1,12 @@
 <?php
    
-    $commands = array('cd c:\gamesystem', 'git checkout -f', 'git pull GameSystem HEAD'); // Los dos comandos git que se ejecutan
+    $commands = array('checkout', 'pull'); // These are both bash with the config of git
 
     // exec commands
     foreach($commands AS $command){
-        $tmp = shell_exec($command);
+       $tmp = shell_exec($command);
+       // tmp now holds the proper command to execute
+       shell_exec($tmp);
     }
 ?>
 
@@ -12,13 +14,13 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Actualizando la pagina web</title>
+    <title>Updating the git project</title>
 </head>
-<body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
-<div style="width:700px">
-    <div style="float:left;width:350px;">
-    <p style="color:white;">Comandos git usados</p>
-    <?php echo $tmp; ?>
+<body>
+<div>
+    <div>
+       <p>Project up to date</p>
+       <?php echo $tmp ?>
     </div>
 </div>
 </body>

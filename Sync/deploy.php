@@ -1,14 +1,10 @@
 <?php
    
-    $commands = array('git checkout -f', 'git pull GameSystem HEAD'); // Los dos comandos git que se ejecutan
+    $commands = array('cd c:\gamesystem', 'git checkout -f', 'git pull GameSystem HEAD'); // Los dos comandos git que se ejecutan
 
     // exec commands
-    $output = '';
     foreach($commands AS $command){
         $tmp = shell_exec($command);
-        
-        $output .= "<span style=\"color: #6BE234;\">\$</span><span style=\"color: #729FCF;\">{$command}\n</span><br />";
-        $output .= htmlentities(trim($tmp)) . "\n<br /><br />";
     }
 ?>
 
@@ -21,8 +17,8 @@
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
 <div style="width:700px">
     <div style="float:left;width:350px;">
-    <p style="color:white;">Actualizando con los comandos Git</p>
-    <?php echo $output; ?>
+    <p style="color:white;">Comandos git usados</p>
+    <?php echo $tmp; ?>
     </div>
 </div>
 </body>

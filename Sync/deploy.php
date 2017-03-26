@@ -19,12 +19,8 @@
 <body>
 <div>
     <div>
-       <p>What apache says</p>
+       <p>What Git says</p>
        <?php echo $tmp ?>
-       
-<?php echo 'Propietario script actual: ' . get_current_user();?>
-<?php echo 'apache corre como:  '  . exec('whoami');?>
-       <?php echo 'El script se ejecuta como:  '  . shell_exec('whoami');;?>
     </div>
 </div>
 </body>

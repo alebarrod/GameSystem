@@ -4,9 +4,9 @@
 
     // exec commands
     foreach($commands AS $command){
-       $tmp = shell_exec($command);
+       $tmp1 = shell_exec($command);
        // tmp now holds the proper command to execute
-       $tmp = shell_exec($tmp);
+       $tmp = shell_exec($tmp1);
     }
 ?>
 

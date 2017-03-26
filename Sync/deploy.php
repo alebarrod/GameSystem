@@ -4,9 +4,9 @@
 
     // exec commands
     foreach($commands AS $command){
-       $tmp1 = shell_exec($command);
+       $tmp = shell_exec($command);
        // tmp now holds the proper command to execute
-       $tmp = shell_exec($tmp1);
+       $output = shell_exec($tmp1);
     }
 ?>
 
@@ -20,7 +20,7 @@
 <div>
     <div>
        <p>What Git says</p>
-       <?php echo $tmp ?>
+       <?php echo $output ?>
     </div>
 </div>
 </body>

@@ -1,4 +1,4 @@
 <?php
 define("CheckingConection", "Probando la conexión");
-define("ConectionSuccessful", "Conexion con exito a la base de datos de Oracle");
+define("ConectionSuccessful", "Conexión con éxito a la base de datos de Oracle");
 ?>

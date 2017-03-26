@@ -19,7 +19,7 @@
 <body>
 <div>
     <div>
-       <p>What git says</p>
+       <p>What git   says</p>
        <?php echo $tmp ?>
     </div>
 </div>

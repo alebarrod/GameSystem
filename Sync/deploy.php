@@ -1,12 +1,12 @@
 <?php
    
-    $commands = array('checkout', 'pull'); // These are both bash with the config of git
+   $commands = array('checkout', 'pull'); // These are both bash with the config of git
 
     // exec commands
     foreach($commands AS $command){
        $tmp = shell_exec($command);
        // tmp now holds the proper command to execute
-       $output = shell_exec($tmp1);
+       $output = shell_exec($tmp);
     }
 ?>
 

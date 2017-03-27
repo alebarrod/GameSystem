@@ -20,4 +20,5 @@ switch ($language){
 
 echo CheckingConection;
 echo '<br/>';
+echo 'Testing';
 echo '<br/>';

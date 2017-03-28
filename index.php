@@ -17,8 +17,18 @@ switch ($language){
 }
 
 //include 'myfile.php';
+?>
 
-echo CheckingConection;
-echo '<br/>';
-echo 'Testing';
-echo '<br/>';
+<html>
+<head>
+    <title>
+        <?php echo GameSystemTitleHome ?>
+    </title>
+</head>
+<body>
+    <?php
+        echo CheckingConection;
+        echo '<br/>';
+    ?>
+</body>
+</html>

@@ -20,15 +20,15 @@ switch ($language){
 ?>
 
 <html>
-<head>
-    <title>
-        <?php echo GameSystemTitleHome ?>
-    </title>
-</head>
-<body>
-    <?php
-        echo CheckingConection;
-        echo '<br/>';
-    ?>
-</body>
+    <head>
+        <title>
+            <?php echo GameSystemTitleHome ?>
+        </title>
+    </head>
+    <body>
+        <?php
+            echo CheckingConection;
+            echo '<br/>';
+        ?>
+    </body>
 </html>

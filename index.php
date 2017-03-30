@@ -22,7 +22,8 @@ switch ($language){
 <html>
     <head>
         <title>
-            <?php echo GameSystemTitleHome ?>
+            <?php echo GameSystemTitleHome
+            echo ", Soy una pantalla en blanco"?>
         </title>
     </head>
     <body>

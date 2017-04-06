@@ -19,11 +19,11 @@ switch ($language){
 //include 'myfile.php';
 ?>
 
+<!DOCTYPE html>
 <html>
     <head>
         <title>
-            <?php echo GameSystemTitleHome;
-            echo ", Soy una pantalla en blanco"?>
+            <?php echo GameSystemTitleHome;?>
         </title>
         <link rel="icon" type="image/png" href="/Images/favicon16.png" sizes="16x16" />
         <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
@@ -33,5 +33,53 @@ switch ($language){
             echo CheckingConection;
             echo '<br/>';
         ?>
+        <div id="header" class="">
+            <div id="topHeader" class="">
+                <img id="logo" class="" src="/Images/logo.png" />
+                <div id="search" class="">
+                    <div id="searchBox" class="">
+
+                    </div>
+                    <div id="searchButton" class="">
+
+                    </div>
+                </div>
+                <div id="clientBox" class="">
+                    <div id="account" class="">
+
+                    </div>
+                    <div id="cart" class="">
+
+                    </div>
+                </div>
+            </div>
+            <div id="menu" class="">
+
+            </div>
+        </div>
+
+        <div id="main" class="">
+            <div id="slider" class="">
+
+            </div>
+            <div id="listProducts" class="">
+
+            </div>
+        </div>
+
+        <div id="footer" class="">
+            <div id="topHeader" class="">
+
+            </div>
+            <div id="copyright" class="">
+                Copyright © 2017 Gamesystem
+            </div>
+            <div id="divider" class="">
+                -----------------------
+            </div>
+            <div id="finalIcons" class="">
+
+            </div>
+        </div>
     </body>
 </html>

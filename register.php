@@ -34,7 +34,7 @@ switch ($language){
         <?php
             echo htmlspecialchars($_POST['name']);
             echo '<br/>';
-            echo (int)$_POST['mail']; ?>
+            echo $_POST['mail'];
             echo '<br/>';
         ?>
     </body>

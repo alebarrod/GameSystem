@@ -22,9 +22,11 @@ switch ($language){
 <html>
     <head>
         <title>
-            <?php echo GameSystemTitleHome
+            <?php echo GameSystemTitleHome;
             echo ", Soy una pantalla en blanco"?>
         </title>
+        <link rel="icon" type="image/png" href="/Images/favicon16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
     </head>
     <body>
         <?php

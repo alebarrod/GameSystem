@@ -46,7 +46,7 @@ body #errorPage a:hover {
 #backgroundImage {
     background: url(/Images/404.png) no-repeat;
     padding: 50px 0;
-    top: 20%;
+    margin-top: 150px;
 }
 
 #errorPage p a {

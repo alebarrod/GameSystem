@@ -30,7 +30,7 @@ switch ($language){
     </head>
     <body>
         <div id="errorPage" class="matrix">
-            <div id="errorContent" class="">
+            <div id="errorContent" class="content">
                 <img id="morpheus" class="" src="/Images/404Error/<?php echo errorPhoto; ?>" />
                 <div id="textError" class="">
                     <a href="http://www.gamesystem.com">

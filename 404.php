@@ -28,8 +28,8 @@ switch ($language){
         <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
     </head>
     <body>
-        <div id="errorPage" class="matrix" backgroung="/Images/404Error/matrix.gif">
-            <img id="morpheus" class="" src="/Images/404Error/".errorPhoto />
+        <div id="errorPage" class="matrix" style="background-image:url(/Images/404Error/matrix.gif)">
+            <img id="morpheus" class="" src="/Images/404Error/"<?php echo errorPhoto; ?> />
             <?php
                 echo Error404Message;
             ?>

@@ -30,7 +30,7 @@ switch ($language){
     </head>
     <body>
         <div id="errorPage" class="matrix">
-            <div id="emptyForCenter" class="">
+            <div id="emptyForCenter" class="midCenter">
                 <div id="backgroundImage" class=""></div>
                 <div id="textError" class="errorContentText">
                     <h2>Page not Found</h2>

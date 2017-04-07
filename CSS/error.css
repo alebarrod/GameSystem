@@ -1,17 +1,20 @@
 body {
     background: none;
 }
+
 body #errorPage {
     min-height: 400px;
     max-width: 650px;
     padding: 0;
     margin: 60px auto;
 }
+
 body #errorPage >div {
     margin-top: 30px;
     text-align: center;
     border-radius: 3px;
 }
+
 body #errorPage h1.error-code {
     font-family: Impact, Verdana, Geneva, sans-serif;
     font-size: 150px;
@@ -20,6 +23,7 @@ body #errorPage h1.error-code {
     font-weight: 100;
     padding-top: 30px;
 }
+
 body #errorPage p.error-message {
     font-size: 24px;
     line-height: 24px;
@@ -28,19 +32,23 @@ body #errorPage p.error-message {
     text-shadow: 0 1px #fff;
     margin-right: 10px;
 }
+
 body #errorPage a {
     text-decoration: none;
     color: #1158a6;
 }
+
 body #errorPage a:hover {
     text-decoration: none;
     color: #62d3f8;
 }
+
 #backgroundImage {
-    background: url(/Images/404.png) no-repeat 215px;
+    background: url(/Images/404.png) no-repeat;
     padding: 50px 0;
-    margin-top: 130px;
+    top: 20%;
 }
+
 #errorPage p a {
     color: transparent;
     font-size: 20px;
@@ -49,31 +57,26 @@ body #errorPage a:hover {
     font-weight: 500;
     margin-left: 10px;
 }
+
 .errorContentText {
     margin-top: 30px;
 }
+
 .errorContentText h2 {
     font-size: 36px;
     color: #333;
     font-weight: 400;
     text-transform: capitalize;
 }
+
 .errorContentText p {
     font-size: 20px;
     color: #333;
     font-weight: 400;
     text-align: center;
 }
-.error-content-text-bottom p {
-    font-size: 20px;
-    color: #333;
-    font-weight: 300;
-}
 
 div.midCenter {
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }

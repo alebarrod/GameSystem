@@ -26,9 +26,10 @@ switch ($language){
         </title>
         <link rel="icon" type="image/png" href="/Images/favicon16.png" sizes="16x16" />
         <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
+        <link rel="stylesheet" type="text/css" href="CSS/error.css">
     </head>
     <body>
-        <div id="errorPage" class="matrix" style="background-image:url(/Images/404Error/matrix.gif)">
+        <div id="errorPage" class="matrix">
             <img id="morpheus" class="" src="/Images/404Error/<?php echo errorPhoto; ?>" />
             <div id="textError" class="">
                 <a href="http://www.gamesystem.com">

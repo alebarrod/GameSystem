@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-#background {
+body {
     background: url(/Images/404Error/matrix.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -18,3 +18,7 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+
+.matrix {
+    opacity: 1.0;
+ }

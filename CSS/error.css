@@ -1,9 +1,9 @@
-header {
+body {
     margin: 0;
     padding: 0;
 }
 
-header {
+#background {
     position: absolute;
     background: url(/Images/404Error/matrix.gif);
     background-repeat: no-repeat;
@@ -11,10 +11,6 @@ header {
     height: 100%;
     width: 100%;
     opacity: 0.5;
-}
-
-body {
-    opacity: 1;
 }
 
 #errorContent {

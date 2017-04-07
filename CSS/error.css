@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+.matrix {
     position: absolute;
     background: url(/Images/404Error/matrix.gif);
     background-repeat: no-repeat;
@@ -10,10 +13,6 @@ body {
     opacity: 0.5;
 }
 
-.matrix {
-
-}
-
-#errorPage {
+#errorContent {
     opacity: 1;
 }

@@ -31,7 +31,7 @@ switch ($language){
         <div id="errorPage" class="matrix" style="background-image:url(/Images/404Error/matrix.gif)">
             <img id="morpheus" class="" src="/Images/404Error/<?php echo errorPhoto; ?>" />
             <div id="textError" class="">
-                <a>
+                <a href="http://www.gamesystem.com">
                     <?php
                         echo Error404Message;
                     ?>

@@ -26,3 +26,9 @@
     width: 400px;
     z-index: 2;
 }
+
+div {
+    font: 15px/2 Georgia,serif;
+    margin: 0 0 30px;
+    text-indent: 40px;
+}

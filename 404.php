@@ -33,8 +33,12 @@ switch ($language){
             <div id="emptyForCenter" class="midCenter">
                 <div id="backgroundImage" class=""></div>
                 <div id="textError" class="errorContentText">
-                    <h2>Page not Found</h2>
-                    <p>The page you are looking for could have been deleted or never have existed*</p>
+                    <h2>
+                        <?php echo PageNotFound;?>
+                    </h2>
+                    <p>
+                        <?php echo Error404Description;?>
+                    </p>
                     <a href="/">
                         <?php
                             echo Error404Message;

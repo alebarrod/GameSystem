@@ -15,24 +15,6 @@ body #errorPage >div {
     border-radius: 3px;
 }
 
-body #errorPage h1.error-code {
-    font-family: Impact, Verdana, Geneva, sans-serif;
-    font-size: 150px;
-    line-height: 180px;
-    color: #fff;
-    font-weight: 100;
-    padding-top: 30px;
-}
-
-body #errorPage p.error-message {
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #999;
-    text-shadow: 0 1px #fff;
-    margin-right: 10px;
-}
-
 body #errorPage a {
     text-decoration: none;
     color: #1158a6;
@@ -47,6 +29,7 @@ body #errorPage a:hover {
     background: url(/Images/404.png) no-repeat;
     padding: 50px 0;
     margin-top: 150px;
+    margin-left: 215px;
 }
 
 #errorPage p a {

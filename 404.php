@@ -30,18 +30,18 @@ switch ($language){
     </head>
     <body>
         <div id="errorPage" class="matrix">
-            <img id="morpheus" class="" src="/Images/404Error/<?php echo errorPhoto; ?>" />
-            <div id="textError" class="">
-                <a href="index.php">
+            <div id="backgroundImage" class="">
+
+            </div>
+            <div id="textError" class="errorContentText">
+                <h2>Page not Found</h2>
+                <p>The page you are looking for could have been deleted or never have existed*</p>
+                <a href="/">
                     <?php
                         echo Error404Message;
                     ?>
                 </a>
             </div>
         </div>
-        <div id="background">
-            <img id="" src="/Images/404Error/matrix.gif" alt="">
-        </div>
     </body>
 </html>
-

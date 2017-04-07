@@ -13,10 +13,6 @@ body {
     opacity: 0.5;
 }
 
-#errorContent {
-
-}
-
-#morpheus {
-
+.matrix {
+    opacity: 1;
 }

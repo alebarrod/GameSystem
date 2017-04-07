@@ -29,10 +29,7 @@ switch ($language){
         <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
     </head>
     <body>
-        <?php
-            echo CheckingConection;
-            echo '<br/>';
-        ?>
+        <?php ?>
         <div id="header" class="">
             <div id="topHeader" class="">
                 <img id="logo" class="" src="/Images/logo.png" />

@@ -1,4 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .matrix {
+    position: absolute;
     background: url(/Images/404Error/matrix.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;

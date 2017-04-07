@@ -30,9 +30,13 @@ switch ($language){
     <body>
         <div id="errorPage" class="matrix" style="background-image:url(/Images/404Error/matrix.gif)">
             <img id="morpheus" class="" src="/Images/404Error/<?php echo errorPhoto; ?>" />
-            <?php
-                echo Error404Message;
-            ?>
+            <div id="textError" class="">
+                <a>
+                    <?php
+                        echo Error404Message;
+                    ?>
+                </a>
+            </div>
         </div>
     </body>
 </html>

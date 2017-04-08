@@ -35,7 +35,7 @@ switch ($language){
             <div id="topHeader" class="">
                 <img id="logo" class="" src="/Images/logo.png" />
                 <div id="search" class="">
-                    <form id="searchBoxForm" class="roundedBorders" action="/search" method="get">
+                    <form id="searchBoxForm" class="roundedBorders" action="/search.php" method="get">
                         <div id="searchBox" class="">
                             <input id="searchInput" class="" name="searchText" type="text" placeholder="<?php echo Search; ?>">
                             <button id="searchButton" class="" name="searchButton" type="submit" value="search"></button>
@@ -44,6 +44,7 @@ switch ($language){
                 </div>
                 <div id="clientBox" class="">
                     <div id="account" class="">
+                        <p><?php echo LoginOrRegister;?></p>
 
                     </div>
                     <div id="cart" class="">

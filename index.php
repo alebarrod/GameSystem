@@ -27,6 +27,7 @@ switch ($language){
         </title>
         <link rel="icon" type="image/png" href="/Images/favicon16.png" sizes="16x16" />
         <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
+        <link rel="stylesheet" type="text/css" href="CSS/main.css">
     </head>
     <body>
         <?php ?>
@@ -34,12 +35,12 @@ switch ($language){
             <div id="topHeader" class="">
                 <img id="logo" class="" src="/Images/logo.png" />
                 <div id="search" class="">
-                    <div id="searchBox" class="">
-
-                    </div>
-                    <div id="searchButton" class="">
-
-                    </div>
+                    <form id="searchBoxForm" class="roundedBorders" action="/search" method="get">
+                        <div id="searchBox" class="">
+                            <input id="searchInput" class="" name="searchText" type="text" placeholder="<?php echo Search; ?>">
+                            <button id="searchButton" class="" name="searchButton" type="submit" value="search"></button>
+                        </div>
+                    </form>
                 </div>
                 <div id="clientBox" class="">
                     <div id="account" class="">

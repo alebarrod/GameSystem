@@ -7,4 +7,5 @@ define("Error404Title", "Ups, algo ha pasado en los servidores");
 define("PageNotFound", "Página no encontrada");
 define("Error404Description", "La página que estás buscando ha sido borrada o nunca existió*");
 define("Error404Message", "No te preocupes, vuelve a GameSystem");
+define("Search", "Buscar en GameSystem...");
 ?>

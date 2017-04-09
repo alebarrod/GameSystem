@@ -44,8 +44,59 @@ switch ($language){
                 </div>
                 <div id="clientBox" class="">
                     <div id="account" class="">
-                        <p><?php echo LoginOrRegister;?></p>
+                        <div id="accountRegister" class="">
+                            <a id="" class="" href="register.php">
+                                <?php echo Register; ?>
+                                <span id="" class="arrowDown"></span>
+                            </a>
+                            <ul id="" class="">
+                                <div id="" class="">
+                                    <div id="" class="">
+                                        <?php echo Register; ?>
+                                    </div>
+                                    <form id="registerForm" class="" action="register.php" method="post">
 
+                                    </form>
+                                </div>
+                            </ul>
+                        </div>
+                        <div id="accountLogin" class="">
+                            <a id="" class="" href="login.php">
+                                <?php echo Login; ?>
+                                <span id="" class="arrowDown"></span>
+                            </a>
+                            <ul id="" class="">
+                                <div id="" class="">
+                                    <div id="" class="">
+                                        <?php echo Login; ?>
+                                    </div>
+                                    <form id="loginForm" class="" action="login.php" method="post">
+                                        <div id="" class="">
+                                            <label for="username"><?php echo Username; ?></label>
+                                            <input id="username" class="" name="userName" placeholder="<?php echo Username; ?>">
+                                        </div>
+                                        <div id="" class="">
+                                            <label for="password"><?php echo Username; ?></label>
+                                            <input id="password" class="" name="passWord" placeholder="<?php echo Password; ?>">
+                                        </div>
+                                        <div id="" class="">
+                                            <div id="" class="">
+                                                <input id="remember" class="" name="remember" type="checkbox">
+                                                <label for="remember"><?php echo RemenberMe; ?></label>
+                                            </div>
+                                            <div id="" class="">
+                                                <input id="loginButton" class="" name="loginButton" value="<?php echo Login; ?>" type="submit">
+                                            </div>
+                                        </div>
+                                        <div id="" class="">
+                                            <a id="" class="" href="recover.php">
+                                                <?php echo ForgotPass; ?>
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                     <div id="cart" class="">
 

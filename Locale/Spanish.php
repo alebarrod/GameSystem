@@ -8,5 +8,10 @@ define("PageNotFound", "Página no encontrada");
 define("Error404Description", "La página que estás buscando ha sido borrada o nunca existió*");
 define("Error404Message", "No te preocupes, vuelve a GameSystem");
 define("Search", "Buscar en GameSystem...");
-define("LoginOrRegister","Entra o registrate");
+define("Register","Registrate");
+define("Login","Entrar");
+define("Username","Usuario");
+define("Password", "Contraseña");
+define("RemenberMe","Recordarme");
+define("ForgotPass", "Olvide la contraseña");
 ?>

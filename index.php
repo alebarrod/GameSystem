@@ -133,7 +133,7 @@ switch ($language){
 
             </div>
             <div id="copyright" class="">
-
+                <?php echo Copyright; ?>
             </div>
             <div id="divider" class="">
 

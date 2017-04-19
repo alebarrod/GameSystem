@@ -16,5 +16,5 @@ define("Password", "Contraseña");
 define("RemenberMe","Recordarme");
 define("ForgotPass", "Olvide la contraseña");
 define("LoginIncorrect", "Nombre o contraseña incorrecta");
-define("Copyright", "Copyright © date(\"Y\") ".GameSystem);
+define("Copyright", "Copyright © ".date("Y")." ".GameSystem);
 ?>

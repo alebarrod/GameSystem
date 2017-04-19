@@ -115,7 +115,7 @@ switch ($language){
                 </div>
             </div>
             <div id="menu" class="">
-                <span>favorite s</span>
+
             </div>
         </div>
 

@@ -20,10 +20,21 @@ switch ($language){
 ?>
 
 <!DOCTYPE html>
+<?php
+    if (isset($_COOKIE['userName']) && isset($_COOKIE['passWord'])) {
+
+        if (($_POST['userName'] != $user) || ($_POST['passWord'] != md5($pass))) {
+            //header('Location: login.php');
+        }
+        else {
+            echo 'Welcome back ' . $_COOKIE['userName'];
+        }
+    }
+?>
 <html>
     <head>
         <title>
-            <?php echo GameSystemTitleHome;?>
+            <?php echo GameSystemTitleHome; ?>
         </title>
         <link rel="icon" type="image/png" href="/Images/favicon16.png" sizes="16x16" />
         <link rel="icon" type="image/png" href="/Images/favicon32.png" sizes="32x32" />
@@ -31,15 +42,15 @@ switch ($language){
     </head>
     <body>
         <?php ?>
-        <div id="header" class="">
+        <div id="header" class="fullWidth">
             <div id="topHeader" class="">
                 <img id="logo" class="" src="/Images/logo.png" />
                 <div id="search" class="">
                     <form id="searchBoxForm" class="roundedBorders" action="/search.php" method="get">
-                        <div id="searchBox" class="">
-                            <input id="searchInput" class="" name="searchText" type="text" placeholder="<?php echo Search; ?>">
-                            <button id="searchButton" class="" name="searchButton" type="submit" value="search"></button>
-                        </div>
+                        <fieldset id="searchBox" class=""><!--
+                            --><input id="searchInput" class="" name="searchText" type="text" placeholder="<?php echo Search; ?>"><!--
+                            --><button id="searchButton" class="" name="searchButton" type="submit" value="search"></button>
+                        </fieldset>
                     </form>
                 </div>
                 <div id="clientBox" class="">
@@ -81,7 +92,7 @@ switch ($language){
                                         </div>
                                         <div id="" class="">
                                             <div id="" class="">
-                                                <input id="remember" class="" name="remember" type="checkbox">
+                                                <input id="remember" class="" name="rememberMe" type="checkbox" checked>
                                                 <label for="remember"><?php echo RemenberMe; ?></label>
                                             </div>
                                             <div id="" class="">
@@ -99,12 +110,12 @@ switch ($language){
                         </div>
                     </div>
                     <div id="cart" class="">
-
+                        <label></label>
                     </div>
                 </div>
             </div>
             <div id="menu" class="">
-
+                <span>favorite s</span>
             </div>
         </div>
 
@@ -117,15 +128,15 @@ switch ($language){
             </div>
         </div>
 
-        <div id="footer" class="">
+        <div id="footer" class="fullWidth">
             <div id="topHeader" class="">
 
             </div>
             <div id="copyright" class="">
-                Copyright © 2017 Gamesystem
+
             </div>
             <div id="divider" class="">
-                -----------------------
+
             </div>
             <div id="finalIcons" class="">
 
